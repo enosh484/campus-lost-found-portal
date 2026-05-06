@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Campus Lost & Found Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Campus Lost & Found Portal</h1>
+
+        <input type="text" id="title" placeholder="Item Title">
+
+        <textarea id="description" placeholder="Description"></textarea>
+
+        <input type="text" id="location" placeholder="Location">
+
+        <input type="text" id="contact" placeholder="Contact Details">
+
+        <select id="status">
+            <option value="Lost">Lost</option>
+            <option value="Found">Found</option>
+        </select>
+
+        <input type="file" id="image">
+
+        <button onclick="addItem()">Add Item</button>
+
+        <input type="text" id="search" placeholder="Search items...">
+
+        <div id="itemsList"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
